@@ -5,8 +5,6 @@ import {
   FETCH_TODOS_FULFILLED
 } from '../../actions/todo';
 
-import { purgeStore } from '../../store';
-
 export const INITIAL_STATE = {
   todos: [],
   error: {
@@ -51,8 +49,10 @@ export default function(state = INITIAL_STATE, action) {
       };
 
     case CLEAR_TODOS:
-      purgeStore();
-      return state;
+      return {
+        ...state,
+        todos: []
+      };
 
     default:
       return state;
