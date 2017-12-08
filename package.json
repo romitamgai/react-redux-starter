@@ -37,7 +37,6 @@
     "eject": "react-scripts eject",
     "lint": "eslint 'src/**/*.{js,jsx}'",
     "lint:fix": "eslint --fix 'src/**/*.{js,jsx}'",
-    "test": "react-scripts test --verbose --env=jsdom",
-    "prettify": "prettier --single-quote --parser typescript --print-width 120 --write \"src/**/*.{js,jsx}\""
+    "test": "react-scripts test --verbose --env=jsdom"
   }
 }
