@@ -1,0 +1,23 @@
+.todo {
+  color: #fff;
+}
+
+.logo-holder {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  z-index: 800;
+}
+
+.logo-holder img {
+  height: 36px;
+  vertical-align: middle;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.todo-contents {
+  margin: 100px 0 0 10px;
+}

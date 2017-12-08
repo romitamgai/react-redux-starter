@@ -1,0 +1,43 @@
+{
+  "name": "chautari-web",
+  "version": "1.0.0",
+  "description": "React application for leapfrog chautari",
+  "author": "Romit Amgai <romitamgai@lftechnology.com>",
+  "contributors": [
+    "romitamgai@lftechnology.com"
+  ],
+  "private": true,
+  "engines": {
+    "node": ">=8.9.1",
+    "npm": ">=5.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.12.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.3.1",
+    "prettier": "^1.9.1",
+    "react-scripts": "1.0.17"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-proptypes": "^1.0.0",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "recompose": "^0.26.0",
+    "redux": "^3.7.2",
+    "redux-actions": "^2.2.1",
+    "redux-persist": "^4.10.1",
+    "redux-promise-middleware": "^5.0.0",
+    "redux-thunk": "^2.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "lint": "eslint 'src/**/*.{js,jsx}'",
+    "lint:fix": "eslint --fix 'src/**/*.{js,jsx}'",
+    "test": "react-scripts test --verbose --env=jsdom",
+    "prettify": "prettier --single-quote --parser typescript --print-width 120 --write \"src/**/*.{js,jsx}\""
+  }
+}
