@@ -1,11 +1,8 @@
 {
-  "name": "chautari-web",
+  "name": "react-redux-starter",
   "version": "1.0.0",
-  "description": "React application for leapfrog chautari",
-  "author": "Romit Amgai <romitamgai@lftechnology.com>",
-  "contributors": [
-    "romitamgai@lftechnology.com"
-  ],
+  "description": "React application with redux",
+  "author": "Romit Amgai <rtrromitamgai@gmail.com>",
   "private": true,
   "engines": {
     "node": ">=8.9.1",
